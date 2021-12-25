@@ -163,4 +163,4 @@ async def chat_watcher_func(_, message):
             await message.chat.kick_member(userid)
         except Exception:
             return       
-        await message.reply_text(f"{checking} is globally banned by veez mega and has been kicked out from chat.\n\n🚫 **reason:** potential spammer and abuser.")
+        await message.reply_text(f"{checking} is globally banned by Ehsaas and has been kicked out from chat.\n\n🚫 **reason:** potential spammer and abuser.")
