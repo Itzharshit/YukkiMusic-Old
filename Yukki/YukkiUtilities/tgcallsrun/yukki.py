@@ -66,13 +66,13 @@ async def on_stream_end(client: PyTgCalls, update: Update) -> None:
             f3 = (afk[2])
             finxx = (f"{f1}{f2}{f3}")
             if str(finxx) != "raw":  
-                mystic = await app.send_message(chat_id, "📥 downloading next music from playlist...")
+                mystic = await app.send_message(chat_id, "📥 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙞𝙣𝙜 𝙉𝙚𝙭𝙩 𝙈𝙪𝙨𝙞𝙘 𝙁𝙧𝙤𝙢 𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩...")
                 url = (f"https://www.youtube.com/watch?v={afk}")
                 ctitle = (await app.get_chat(chat_id)).title
-                logger_text=f"""▶ playing music from playlist
+                logger_text=f"""▶ 𝙋𝙡𝙖𝙮𝙞𝙣𝙜 𝙈𝙪𝙨𝙞𝙘 𝙁𝙧𝙤𝙢 𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩
 
-Group: `{chat_id}`
-Title: {ctitle}
+𝙂𝙧𝙤𝙪𝙥: `{chat_id}`
+𝙏𝙞𝙩𝙡𝙚: {ctitle}
 
 🔗 {url}"""
                 okay = await smexy.send_message(LOG_GROUP_ID, f"{logger_text}", disable_web_page_preview=True)
@@ -80,7 +80,7 @@ Title: {ctitle}
                     with yt_dlp.YoutubeDL(ytdl_opts) as ytdl:
                         x = ytdl.extract_info(url, download=False)
                 except Exception as e:
-                    return await mystic.edit(f"failed to download this video.\n\n**reason:** {e}") 
+                    return await mystic.edit(f"𝙁𝙖𝙞𝙡𝙚𝙙 𝙏𝙤 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝙏𝙝𝙞𝙨 𝙑𝙞𝙙𝙚𝙤.\n\n**reason:** {e}") 
                 
                 chat_title = ctitle                
                 videoid = afk
@@ -143,7 +143,7 @@ Title: {ctitle}
                 await app.send_photo(chat_id,
                 photo= thumb,
                 reply_markup=InlineKeyboardMarkup(buttons),    
-                caption=(f"🏷 **Name:** {title[:70]}\n⏱ **Duration:** `{duration}` m\n💡 **Status:** `Playing`\n🎧 **Request by:** {semx.mention}")
+                caption=(f"🏷 **Name:** {title[:70]}\n⏱ **Duration:** `{duration}` m\n💡 **𝙎𝙩𝙖𝙩𝙪𝙨:** `𝙋𝙡𝙖𝙮𝙞𝙣𝙜`\n🎧 **𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙗𝙮:** {semx.mention}")
             )   
                 os.remove(thumb)
             else:      
@@ -173,7 +173,7 @@ Title: {ctitle}
                 await app.send_photo(chat_id,
                 photo=f"downloads/{_chat_}final.png",
                 reply_markup=InlineKeyboardMarkup(buttons),
-                caption=f"🏷 **Name:** {title[:70]}\n⏱ **Duration:** `{duration}` m\n💡 **Status:** `Playing`\n🎧 **Request by:** {username}",
+                caption=f"🏷 **Name:** {title[:70]}\n⏱ **Duration:** `{duration}` m\n💡 **𝙎𝙩𝙖𝙩𝙪𝙨:** `𝙋𝙡𝙖𝙮𝙞𝙣𝙜`\n🎧 **𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙗𝙮:** {username}",
                 )
                 return
            
