@@ -81,7 +81,7 @@ async def start(_, message: Message):
         await message.reply_text(f"❌ **not in allowed chat**\n\nEhsaas is only for allowed chats, ask any sudo user to allow your chat.\n\ncheck sudo user list [From Here](https://t.me/{BOT_USERNAME}?start=sudolist)")
         return await app.leave_chat(chat_id)
     out = start_pannel()
-    await message.reply_text(f"✨ Hello {message.from_user.mention}, i'm a Ehsaas bot.\n\n💭 Make me admin in your group so I can play music, otherwise you can't use my service.", reply_markup=InlineKeyboardMarkup(out[1]))
+    await message.reply_text(f"✨ 𝙃𝙀𝙇𝙇𝙊 {message.from_user.mention}, 𝙄'𝙈 𝙀𝙃𝙎𝘼𝘼𝙎 𝙈𝙐𝙎𝙄𝘾 𝘽𝙊𝙏.\n\n💭 𝙈𝘼𝙆𝙀 𝙈𝙀 𝘼𝘿𝙈𝙄𝙉 𝙄𝙉 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 𝙎𝙊 𝙏𝙃𝘼𝙏 𝙄 𝘾𝘼𝙉 𝙋𝙇𝘼𝙔 𝙈𝙐𝙎𝙄𝘾, 𝙊𝙏𝙃𝙀𝙍𝙒𝙄𝙎𝙀 𝙔𝙊𝙐 𝘾𝘼𝙉'𝙏 𝙐𝙎𝙀 𝙈𝙔 𝙎𝙀𝙍𝙑𝙄𝘾𝙀.", reply_markup=InlineKeyboardMarkup(out[1]))
     return
         
 @Client.on_message(filters.private & filters.incoming & filters.command("start"))
@@ -120,7 +120,7 @@ async def play(_, message: Message):
 📣 **Channel:** {x["uploader"]}
 🔗 **Link:** {x["webpage_url"]}
 
-⚡️ __Powered by Veez Music Mega AI__"""
+⚡️ __Powered by Ehsaas Music Mega AI__"""
             link = (x["webpage_url"])
             buttons = personal_markup(link)
             userid = message.from_user.id
