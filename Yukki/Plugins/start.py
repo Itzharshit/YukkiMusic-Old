@@ -34,7 +34,7 @@ pstart_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "❰➕ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ➕❱", url="https://t.me/VeezMegaBot?startgroup=true")
+                        "❰➕ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 ➕❱", url="https://t.me/ehsaasmusic_bot?startgroup=true")
                 ],[
                     InlineKeyboardButton(
                         "❰𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀❱", url="https://telegra.ph/EHSAAS-MUSIC-COMMAND-12-25"),
@@ -45,7 +45,10 @@ pstart_markup=InlineKeyboardMarkup(
                         "❰𝗚𝗿𝗼𝘂𝗽❱", url="https://t.me/World_friends_chatting_group"), 
                     InlineKeyboardButton(
                         "❰𝗢𝘄𝗻𝗲𝗿❱", url="https://t.me/ARMY0071")
-                ],
+                ],[
+                    InlineKeyboardButton(
+                        "❰𝙎𝙚𝙩𝙪𝙥 𝙂𝙪𝙞𝙙𝙚❱", url="https://telegra.ph/Setup-guide-12-25")
+                ]
             ]
         )
 
