@@ -9,8 +9,8 @@ from pyrogram.types import (
 def play_markup(videoid, user_id):
     buttons= [
             [
-                InlineKeyboardButton(text="❰⚙️ 𝙈𝙚𝙣𝙪❱", callback_data=f'other {videoid}|{user_id}'),      
-                InlineKeyboardButton(text="❰🗑 𝗖𝗹𝗼𝘀𝗲❱", callback_data=f'close2')
+                InlineKeyboardButton(text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://t.me/World_friends_chatting_group"),      
+                InlineKeyboardButton(text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://t.me/ARMY0071")
             ],
         ]
     return buttons 
