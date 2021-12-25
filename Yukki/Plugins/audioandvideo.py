@@ -178,8 +178,8 @@ async def getspy(_,CallbackQuery):
                     a1,
                 ],
                 [
-                    InlineKeyboardButton(text="⬅️ Back", callback_data=f'good {videoid}|{user_id}'),
-                    InlineKeyboardButton(text="🗑 Close", callback_data=f'close2')
+                    InlineKeyboardButton(text="❰⬅️ 𝗕𝗮𝗰𝗸❱", callback_data=f'good {videoid}|{user_id}'),
+                    InlineKeyboardButton(text="❰🗑 𝗖𝗹𝗼𝘀𝗲❱", callback_data=f'close2')
                 ]    
             ]
         )
@@ -191,8 +191,8 @@ async def getspy(_,CallbackQuery):
                     a2,
                 ],
                 [
-                    InlineKeyboardButton(text="⬅️ Back", callback_data=f'good {videoid}|{user_id}'),
-                    InlineKeyboardButton(text="🗑 Close", callback_data=f'close2')
+                    InlineKeyboardButton(text="❰⬅️ 𝗕𝗮𝗰𝗸❱", callback_data=f'good {videoid}|{user_id}'),
+                    InlineKeyboardButton(text="❰🗑 𝗖𝗹𝗼𝘀𝗲❱", callback_data=f'close2')
                 ]    
             ]
         )  
@@ -207,8 +207,8 @@ async def getspy(_,CallbackQuery):
                     a3,
                 ],
                 [
-                    InlineKeyboardButton(text="⬅️ Back", callback_data=f'good {videoid}|{user_id}'),
-                    InlineKeyboardButton(text="🗑 Close", callback_data=f'close2')
+                    InlineKeyboardButton(text="❰⬅️ 𝗕𝗮𝗰𝗸❱", callback_data=f'good {videoid}|{user_id}'),
+                    InlineKeyboardButton(text="❰🗑 𝗖𝗹𝗼𝘀𝗲❱", callback_data=f'close2')
                 ]    
             ]
         ) 
@@ -224,8 +224,8 @@ async def getspy(_,CallbackQuery):
                     a4,
                 ],
                 [
-                    InlineKeyboardButton(text="⬅️ Back", callback_data=f'good {videoid}|{user_id}'),
-                    InlineKeyboardButton(text="🗑 Close", callback_data=f'close2')
+                    InlineKeyboardButton(text="❰⬅️ 𝗕𝗮𝗰𝗸❱", callback_data=f'good {videoid}|{user_id}'),
+                    InlineKeyboardButton(text="❰🗑 𝗖𝗹𝗼𝘀𝗲❱", callback_data=f'close2')
                 ]    
             ]
         )    
@@ -244,8 +244,8 @@ async def getspy(_,CallbackQuery):
                     a5,
                 ],
                 [
-                    InlineKeyboardButton(text="⬅️ Back", callback_data=f'good {videoid}|{user_id}'),
-                    InlineKeyboardButton(text="🗑 Close", callback_data=f'close2')
+                    InlineKeyboardButton(text="❰⬅️ 𝗕𝗮𝗰𝗸❱", callback_data=f'good {videoid}|{user_id}'),
+                    InlineKeyboardButton(text="❰🗑 𝗖𝗹𝗼𝘀𝗲❱", callback_data=f'close2')
                 ]    
             ]
         )  
@@ -265,8 +265,8 @@ async def getspy(_,CallbackQuery):
                     a6,
                 ],
                 [
-                    InlineKeyboardButton(text="⬅️ Back", callback_data=f'good {videoid}|{user_id}'),
-                    InlineKeyboardButton(text="🗑 Close", callback_data=f'close2')
+                    InlineKeyboardButton(text="❰⬅️ 𝗕𝗮𝗰𝗸❱", callback_data=f'good {videoid}|{user_id}'),
+                    InlineKeyboardButton(text="❰🗑 𝗖𝗹𝗼𝘀𝗲❱", callback_data=f'close2')
                 ]    
             ]
         )    
@@ -296,8 +296,8 @@ async def ytdata(_,CallbackQuery):
                     a2,
                 ],
                 [
-                    InlineKeyboardButton(text="⬅️ Back", callback_data=f'good {videoid}|{user_id}'),
-                    InlineKeyboardButton(text="🗑 Close", callback_data=f'close2')
+                    InlineKeyboardButton(text="❰⬅️ 𝗕𝗮𝗰𝗸❱", callback_data=f'good {videoid}|{user_id}'),
+                    InlineKeyboardButton(text="❰🗑 𝗖𝗹𝗼𝘀𝗲❱", callback_data=f'close2')
                 ]    
             ]
         )
@@ -307,7 +307,7 @@ async def ytdata(_,CallbackQuery):
 inl = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="📥 Downloading...", callback_data=f'down')
+                    InlineKeyboardButton(text="📥 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙞𝙣𝙜...", callback_data=f'down')
                 ]   
             ]
         )
@@ -315,7 +315,7 @@ inl = InlineKeyboardMarkup(
 upl = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="📤 Uploading...", callback_data=f'down')
+                    InlineKeyboardButton(text="📤 𝙐𝙥𝙡𝙤𝙖𝙙𝙞𝙣𝙜...", callback_data=f'down')
                 ]   
             ]
         )
@@ -326,8 +326,8 @@ def inl_mark(videoid, user_id):
                 InlineKeyboardButton(text="❌ download or upload failed.", callback_data=f'down')
             ],
             [
-                InlineKeyboardButton(text="⬅️ Back", callback_data=f'good {videoid}|{user_id}'),
-                InlineKeyboardButton(text="🗑 Close", callback_data=f'close2')
+                InlineKeyboardButton(text="❰⬅️ 𝗕𝗮𝗰𝗸❱", callback_data=f'good {videoid}|{user_id}'),
+                InlineKeyboardButton(text="❰🗑 𝗖𝗹𝗼𝘀𝗲❱", callback_data=f'close2')
             ],
         ]
     return buttons 
