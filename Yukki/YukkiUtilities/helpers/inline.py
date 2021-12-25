@@ -29,8 +29,8 @@ def others_markup(videoid, user_id):
                 InlineKeyboardButton(text="❰✚ 𝙂𝙧𝙤𝙪𝙥 𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩❱", callback_data=f'group_playlist {videoid}|{user_id}')
             ],
             [
-                InlineKeyboardButton(text="❰📥 𝙂𝙚𝙩 𝘼𝙪𝙙𝙞𝙤❱", callback_data=f'gets audio|{videoid}|{user_id}'),
-                InlineKeyboardButton(text="❰📥 𝙂𝙚𝙩 𝙑𝙞𝙙𝙚𝙤❱", callback_data=f'gets video|{videoid}|{user_id}')
+                InlineKeyboardButton(text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://t.me/World_friends_chatting_group"),
+                InlineKeyboardButton(text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://t.me/ARMY0071")
             ],
             [
                 InlineKeyboardButton(text="❰🔙 𝙂𝙤 𝘽𝙖𝙘𝙠❱", callback_data=f'goback {videoid}|{user_id}')
@@ -72,7 +72,7 @@ def audio_markup(videoid, user_id):
                 InlineKeyboardButton(text="⏹️", callback_data=f'stopvc2')
             ],
             [
-                InlineKeyboardButton(text="🗑 Close", callback_data="close2")              
+                InlineKeyboardButton(text="❰🗑 𝗖𝗹𝗼𝘀𝗲❱", callback_data="close2")              
             ],
         ]
     return buttons 
@@ -93,7 +93,7 @@ def search_markup(ID1, ID2, ID3, ID4, ID5, duration1, duration2, duration3, dura
                 InlineKeyboardButton(text="➡", callback_data=f'popat 1|{query}|{user_id}')
             ],
             [
-                InlineKeyboardButton(text="🗑 Close", callback_data=f"ppcl2 smex|{user_id}")
+                InlineKeyboardButton(text="❰🗑 𝗖𝗹𝗼𝘀𝗲❱", callback_data=f"ppcl2 smex|{user_id}")
             ],
         ]
     return buttons   
