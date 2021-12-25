@@ -222,7 +222,7 @@ def playlist_markup(user_name, user_id):
                 InlineKeyboardButton(text=f"❰𝙂𝙧𝙤𝙪𝙥'𝙨 𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩❱", callback_data=f'play_playlist {user_id}|group')
             ],
             [
-                InlineKeyboardButton(text=f"{user_name[:8]}'s Playlist", callback_data=f'play_playlist {user_id}|personal')
+                InlineKeyboardButton(text=f"❰{user_name[:8]}'s 𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩❱", callback_data=f'play_playlist {user_id}|personal')
             ],
             [
                 InlineKeyboardButton(text="❰🗑 𝗖𝗹𝗼𝘀𝗲❱", callback_data="close2")              
