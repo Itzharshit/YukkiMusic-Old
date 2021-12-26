@@ -57,7 +57,7 @@ welcome_captcha_group = 2
 async def welcome(_, message: Message):
     chat_id = message.chat.id
     if not await is_served_chat(chat_id):
-        await message.reply_text(f"❌ **not in allowed chat**\n\nEhsaas is only for allowed chats, ask any sudo user to allow your chat.\n\ncheck sudo user list [From Here](https://t.me/{BOT_USERNAME}?start=sudolist)")
+        await message.reply_text(f"❌ **𝙣𝙤𝙩 𝙞𝙣 𝙖𝙡𝙡𝙤𝙬𝙚𝙙 𝙘𝙝𝙖𝙩**\n\n𝙀𝙝𝙨𝙖𝙖𝙨 𝙞𝙨 𝙤𝙣𝙡𝙮 𝙛𝙤𝙧 𝙖𝙡𝙡𝙤𝙬𝙚𝙙 𝙘𝙝𝙖𝙩𝙨, 𝙖𝙨𝙠 𝙖𝙣𝙮 𝙨𝙪𝙙𝙤 𝙪𝙨𝙚𝙧 𝙩𝙤 𝙖𝙡𝙡𝙤𝙬 𝙮𝙤𝙪𝙧 𝙘𝙝𝙖𝙩.\n\n𝙘𝙝𝙚𝙘𝙠 𝙨𝙪𝙙𝙤 𝙪𝙨𝙚𝙧 𝙡𝙞𝙨𝙩 [From Here](https://t.me/{BOT_USERNAME}?start=sudolist)")
         return await app.leave_chat(chat_id)
     for member in message.new_chat_members:
         try:
@@ -69,7 +69,7 @@ async def welcome(_, message: Message):
                 await remove_active_chat(chat_id)
             if member.id == BOT_ID:
                 out = start_pannel()
-                await message.reply_text(f"❤️ **Thanks for adding me to the group !**\n\n**Promote me as administrator of the group, otherwise I will not be able to work properly.", reply_markup=InlineKeyboardMarkup(out[1]))
+                await message.reply_text(f"❤️ **𝙏𝙝𝙖𝙣𝙠𝙨 𝙛𝙤𝙧 𝙖𝙙𝙙𝙞𝙣𝙜 𝙢𝙚 𝙩𝙤 𝙩𝙝𝙚 𝙜𝙧𝙤𝙪𝙥 !**\n\n**𝙋𝙧𝙤𝙢𝙤𝙩𝙚 𝙢𝙚 𝙖𝙨 𝙖𝙙𝙢𝙞𝙣𝙞𝙨𝙩𝙧𝙖𝙩𝙤𝙧 𝙤𝙛 𝙩𝙝𝙚 𝙜𝙧𝙤𝙪𝙥, 𝙤𝙩𝙝𝙚𝙧𝙬𝙞𝙨𝙚 𝙄 𝙬𝙞𝙡𝙡 𝙣𝙤𝙩 𝙗𝙚 𝙖𝙗𝙡𝙚 𝙩𝙤 𝙬𝙤𝙧𝙠 𝙥𝙧𝙤𝙥𝙚𝙧𝙡𝙮.", reply_markup=InlineKeyboardMarkup(out[1]))
                 return
         except:
             return
@@ -78,7 +78,7 @@ async def welcome(_, message: Message):
 async def start(_, message: Message):
     chat_id = message.chat.id
     if not await is_served_chat(chat_id):
-        await message.reply_text(f"❌ **not in allowed chat**\n\nEhsaas is only for allowed chats, ask any sudo user to allow your chat.\n\ncheck sudo user list [From Here](https://t.me/{BOT_USERNAME}?start=sudolist)")
+        await message.reply_text(f"❌ **𝙣𝙤𝙩 𝙞𝙣 𝙖𝙡𝙡𝙤𝙬𝙚𝙙 𝙘𝙝𝙖𝙩**\n\n𝙀𝙝𝙨𝙖𝙖𝙨 𝙞𝙨 𝙤𝙣𝙡𝙮 𝙛𝙤𝙧 𝙖𝙡𝙡𝙤𝙬𝙚𝙙 𝙘𝙝𝙖𝙩𝙨, 𝙖𝙨𝙠 𝙖𝙣𝙮 𝙨𝙪𝙙𝙤 𝙪𝙨𝙚𝙧 𝙩𝙤 𝙖𝙡𝙡𝙤𝙬 𝙮𝙤𝙪𝙧 𝙘𝙝𝙖𝙩.\n\n𝙘𝙝𝙚𝙘𝙠 𝙨𝙪𝙙𝙤 𝙪𝙨𝙚𝙧 𝙡𝙞𝙨𝙩 [From Here](https://t.me/{BOT_USERNAME}?start=sudolist)")
         return await app.leave_chat(chat_id)
     out = start_pannel()
     await message.reply_text(f"✨ 𝙃𝙀𝙇𝙇𝙊 {message.from_user.mention}, 𝙄'𝙈 𝙀𝙃𝙎𝘼𝘼𝙎 𝙈𝙐𝙎𝙄𝘾 𝘽𝙊𝙏.\n\n💭 𝙈𝘼𝙆𝙀 𝙈𝙀 𝘼𝘿𝙈𝙄𝙉 𝙄𝙉 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 𝙎𝙊 𝙏𝙃𝘼𝙏 𝙄 𝘾𝘼𝙉 𝙋𝙇𝘼𝙔 𝙈𝙐𝙎𝙄𝘾, 𝙊𝙏𝙃𝙀𝙍𝙒𝙄𝙎𝙀 𝙔𝙊𝙐 𝘾𝘼𝙉'𝙏 𝙐𝙎𝙀 𝙈𝙔 𝙎𝙀𝙍𝙑𝙄𝘾𝙀.", reply_markup=InlineKeyboardMarkup(out[1]))
@@ -120,7 +120,7 @@ async def play(_, message: Message):
 📣 **Channel:** {x["uploader"]}
 🔗 **Link:** {x["webpage_url"]}
 
-⚡️ __Powered by Ehsaas Music Mega AI__"""
+⚡️ __Powered by Ehsaas Music AI__"""
             link = (x["webpage_url"])
             buttons = personal_markup(link)
             userid = message.from_user.id
