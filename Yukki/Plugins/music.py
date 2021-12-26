@@ -239,7 +239,7 @@ async def play(_, message: Message):
             buttons = playlist_markup(user_name, user_id)
             hmo = await message.reply_photo(
             photo=thumb, 
-            caption=("**usage:** /play (music name/youtube url/audio file)\n\nIf you want to play from playlist, select one from below."),    
+            caption=("**𝙪𝙨𝙖𝙜𝙚:** /play (𝙢𝙪𝙨𝙞𝙘 𝙣𝙖𝙢𝙚/𝙮𝙤𝙪𝙩𝙪𝙗𝙚 𝙪𝙧𝙡/𝙖𝙪𝙙𝙞𝙤 𝙛𝙞𝙡𝙚)\n\n𝙄𝙛 𝙮𝙤𝙪 𝙬𝙖𝙣𝙩 𝙩𝙤 𝙥𝙡𝙖𝙮 𝙛𝙧𝙤𝙢 𝙥𝙡𝙖𝙮𝙡𝙞𝙨𝙩, 𝙨𝙚𝙡𝙚𝙘𝙩 𝙤𝙣𝙚 𝙛𝙧𝙤𝙢 𝙗𝙚𝙡𝙤𝙬."),    
             reply_markup=InlineKeyboardMarkup(buttons),
             ) 
             return
