@@ -121,7 +121,7 @@ async def stop_cmd(_, message):
             pass                        
         await remove_active_chat(chat_id)
         await yukki.pytgcalls.leave_group_call(message.chat.id)
-        await message.reply_text("✅ The userbot has disconnected from the video chat.") 
+        await message.reply_text("✅ 𝙏𝙝𝙚 𝙪𝙨𝙚𝙧𝙗𝙤𝙩 𝙝𝙖𝙨 𝙙𝙞𝙨𝙘𝙤𝙣𝙣𝙚𝙘𝙩𝙚𝙙 𝙛𝙧𝙤𝙢 𝙩𝙝𝙚 𝙫𝙞𝙙𝙚𝙤 𝙘𝙝𝙖𝙩.") 
     else:
         return await message.reply_text("❌ **no music is currently playing**")
 
