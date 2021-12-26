@@ -98,7 +98,7 @@ async def delchatplaylist(_, message):
     else:
          _playlist = await get_note_names(message.chat.id)
     if not _playlist:
-        await message.reply_text("Group's has no playlist on veez mega database.")
+        await message.reply_text("Group's has no playlist on Ehsaas database.")
     else:
         titlex = []
         j = 0
