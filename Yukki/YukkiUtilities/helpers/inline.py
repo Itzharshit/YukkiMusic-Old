@@ -11,7 +11,7 @@ def play_markup(videoid, user_id):
             [
                 InlineKeyboardButton(text="❰𝙂𝙧𝙤𝙪𝙥❱", url=f"https://t.me/World_friends_chatting_group"),      
                 InlineKeyboardButton(text="❰𝙊𝙬𝙣𝙚𝙧❱", url=f"https://t.me/ARMY0071")],
-               [InlineKeyboardButton("❰𝙋𝙐𝘽𝙂 𝙐𝙎𝙀𝙍'𝙎 𝘾𝙇𝙄𝘾𝙆 𝙃𝙀𝙍𝙀❱", url=f"https://t.me/ARMY0071")]
+               [InlineKeyboardButton("❰𝙋𝙐𝘽𝙂 𝙐𝙎𝙀𝙍'𝙎 𝘾𝙇𝙄𝘾𝙆 𝙃𝙀𝙍𝙀❱", url=f"https://t.me/FriendlyHacks")]
         ]
     return buttons 
 
